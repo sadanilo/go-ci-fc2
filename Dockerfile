@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN go build -o math
+RUN go build
 
 CMD ["./math"]
